@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nombre{
+    color: white;
+    text-transform:uppercase ;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    display: flex;
+    margin: 5px; 
+    float: left;
+}
+
+p{
+    text-align: justify;
+    padding: 5px;
+    margin-right: 5px;   
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 5px;   
+}
+
+.contenedor a{
+    font-size: 30px;
+}
+
+
+.linkeldin{
+    color: rgb(8, 110, 206) ;
+    
+}
+
+.github{
+    color: black;
+}
+
+.gmail{
+    color: rgb(219, 17, 17);
+}
+
+.contenedor a:hover{
+    transform: scale(2);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 5px;
+    color:black;
+    text-decoration: underline;
+}
+
+.texto{
+    text-align: justify;
+    margin-top: 5px;  
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.final{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 235, 179);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;     
+}
